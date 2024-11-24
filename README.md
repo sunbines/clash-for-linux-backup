@@ -116,6 +116,16 @@ tcp6       0      0 :::7891                 :::*                    LISTEN
 tcp6       0      0 :::7892                 :::*                    LISTEN
 ```
 
+- 测试代理情况：
+-L：跟随重定向
+```bash
+curl -x http://127.0.0.1:7890 -L https://www.google.com/
+curl -x http://127.0.0.1:7890 -L https://www.baidu.com/
+curl -x http://127.0.0.1:7890 -L https://www.github.com/
+curl -L https://www.github.com/
+```
+若`curl: (35) Encountered end of file`，则表示代理有问题
+
 - 检查环境变量
 
 ```bash
