@@ -1,10 +1,5 @@
-[TOC]
+[English](./README_en.md)|[简体中文](./README.md)
 
-# 多语言
-
-- [English Documentation (README_en)](README_en.md)
-
----
 
 # 项目介绍
 
@@ -126,7 +121,6 @@ tcp6       0      0 :::7892                 :::*                    LISTEN
 -L：跟随重定向
 ```bash
 curl -x http://127.0.0.1:7890 -L https://www.google.com/
-curl -x http://127.0.0.1:7890 -L https://www.baidu.com/
 curl -x http://127.0.0.1:7890 -L https://www.github.com/
 curl -L https://www.github.com/
 ```
