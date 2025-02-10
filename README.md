@@ -1,10 +1,5 @@
-[TOC]
+[English](./README_en.md)|[简体中文](./README.md)
 
-# 多语言
-
-- [English Documentation (README_en)](README_en.md)
-
----
 
 # 项目介绍
 
@@ -126,7 +121,6 @@ tcp6       0      0 :::7892                 :::*                    LISTEN
 -L：跟随重定向
 ```bash
 curl -x http://127.0.0.1:7890 -L https://www.google.com/
-curl -x http://127.0.0.1:7890 -L https://www.baidu.com/
 curl -x http://127.0.0.1:7890 -L https://www.github.com/
 curl -L https://www.github.com/
 ```
@@ -220,3 +214,6 @@ $ proxy_off
    目前此项目已集成自动识别和转换clash配置文件的功能。如果依然无法使用，则需要通过自建或者第三方平台（不推荐，有泄露风险）对订阅地址转换。
    
 3. 程序日志中出现`error: unsupported rule type RULE-SET`报错，解决方法查看官方[WIKI](https://github.com/Dreamacro/clash/wiki/FAQ#error-unsupported-rule-type-rule-set)
+
+# Code URI:
+- https://github.com/Elegycloud/clash-for-linux-backup
